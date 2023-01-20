@@ -1,1 +1,17 @@
 git remote command 
+
+
+// alias command 
+use to create a shotcut command of big command 
+
+// syntax
+git config --global alias.shortcutC mainCommand
+
+git config --global alias.shortcutC 'maain command' => use when command is with white space
+
+// example 
+status ==> st
+git config --global alias.st status
+
+commit -m ==> cm
+git config --global alias.cm 'commit -m'
